@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "sketch-app-types": "^0.1.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "npm run bundle && npm run watch",
+    "bundle": "webpack"
+  },
+  "dependencies": {
+    "sketch-module-web-view": "^3.5.1",
+    "ts-loader": "^9.4.1"
+  }
+}

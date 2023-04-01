@@ -1,32 +1,20 @@
-# Sketch RPC
-Inspired by figma-jsonrpc (https://github.com/Lona/figma-jsonrpc)
+# RPC
 
-## Usage
-// TBD
-
-## How to run for dev 
-### 1. sketch-jsonrpc (library)
+## Installation
 ```
-npm intall
-```
-### 2. ui (webview)
-```
-npm intall
-```
-```
-npm run start
+npm install
 ```
 
-### 3. plugin (sketch-plugin)
+## Build and run
 ```
-npm intall
-```
-```
-npm run start
+npm run postinstall
 ```
 
-### 4. Run sketch and create any layer
+```
+skpm log -f
+```
 
-### 5. Check the ***rpc.ts*** file (/plugin/rpc.ts)
-
-
+1. Open any document in Sketch. 
+2. The webview window will be opened automatically.
+3. Create a any layer and select it.
+4. Check the log in the terminal.

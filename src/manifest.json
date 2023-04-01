@@ -4,7 +4,7 @@
   "commands": [
     {
       "name": "open web view",
-      "identifier": "renderer-plugin.open-web-view",
+      "identifier": "rpc-plugin.open-web-view",
       "handlers": {
         "actions": {
           "run": "openWebview"
@@ -25,7 +25,7 @@
       "script" : "./index.ts"
     },
     {
-      "identifier": "renderer-plugin.my-command-identifier2",
+      "identifier": "rpc-plugin.my-command-identifier2",
       "handlers": {
         "run": "onRun",
         "actions": {
@@ -36,9 +36,9 @@
     }
   ],
   "menu": {
-    "title": "renderer-plugin",
+    "title": "rpc-plugin",
     "items": [
-      "renderer-plugin.open-web-view"
+      "rpc-plugin.open-web-view"
     ]
   }
 }
